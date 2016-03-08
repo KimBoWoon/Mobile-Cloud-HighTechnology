@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<project name="SSL" default="test" basedir=".">
+    <property name="source" location="calculator/app/src/main/java/com/calculator/calculator/"/>
+
+    <target name="test">
+        <javac srcdir="${source}"/>
+    </target>
+</project>
