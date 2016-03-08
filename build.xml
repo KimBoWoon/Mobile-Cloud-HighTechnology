@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<project name="Mobile-Cloud-HighTechnology" default="debug" basedir=".">
-    <property name="source" location="calculator/app/src/main/java/com/calculator/calculator/"/>
-
-    <target name="debug">
-        <javac srcdir="${source}"/>
-    </target>
-</project>
