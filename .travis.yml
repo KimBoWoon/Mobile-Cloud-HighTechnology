@@ -48,5 +48,5 @@ before_script:
 
 script:
   - android list target
-  - calculator/gradlew build
+  # - calculator/gradlew build
   # - ./gradlew connectedAndroidTest
