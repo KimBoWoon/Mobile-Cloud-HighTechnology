@@ -13,4 +13,4 @@ android:
     - android-19
 
 script:
-  - cd calculator && chmod +x gradlew && ./gradlew && gradlew clean && gradlew build
+  - cd calculator && sudo gradle build
