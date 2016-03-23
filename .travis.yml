@@ -17,4 +17,4 @@ android:
     - sys-img-armeabi-v7a-android-19
 
 script:
-  - ./calculator/gradle build
+  - cd calculator && gradle build
