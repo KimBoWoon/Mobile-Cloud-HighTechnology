@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.text).setOnClickListener(listener);
+        //findViewById(R.id.text).setOnClickListener(listener);
     }
 
     Button.OnClickListener listener = new View.OnClickListener() {
