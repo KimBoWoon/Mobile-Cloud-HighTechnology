@@ -13,4 +13,4 @@ android:
     - android-19
 
 script:
-  - cd calculator && sudo gradle build
+  - cd calculator && sudo ./gradle build
