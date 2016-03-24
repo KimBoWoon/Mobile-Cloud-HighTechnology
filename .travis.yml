@@ -14,4 +14,4 @@ android:
 
 script:
   - sudo apt-get install gradle
-  - cd calculator && sudo ./gradle build
+  - cd calculator && sudo gradle build
