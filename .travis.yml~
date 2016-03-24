@@ -15,8 +15,9 @@ android:
 env:
   - GRADLE_HOME=gradle-2.12/bin
 
-script:
+before_script:
   - sudo wget https://services.gradle.org/distributions/gradle-2.12-all.zip
   - sudo unzip gradle-2.12-all.zip
   - sudo gradle -version
+script:
   - cd calculator && sudo gradle build
