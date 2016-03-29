@@ -1,4 +1,4 @@
-package com.calculator.calculator;
+package com.example.bowoon.calculator;
 
 import org.junit.Test;
 
