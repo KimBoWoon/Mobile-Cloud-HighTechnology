@@ -1,4 +1,4 @@
-package com.example.bowoon.calculator;
+package com.example.secret.calculator;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
