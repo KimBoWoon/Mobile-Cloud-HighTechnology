@@ -19,4 +19,6 @@ before_script:
   - sudo gradle -version
 
 script:
-  - cd calculator && sudo gradle build
+  - cd calculator
+  - sudo gradle build
+
