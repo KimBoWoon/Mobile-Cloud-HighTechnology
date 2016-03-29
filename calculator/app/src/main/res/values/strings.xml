@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">calculator</string>
+
+    <string name="val1">1st Value : </string>
+    <string name="val2">2st Value : </string>
+
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+
+    <string name="add">ADD</string>
+    <string name="mul">MULTIPLY</string>
+    <string name="sub">SUBTRACT</string>
+    <string name="div">DIVIDE</string>
+    <string name="next">NEXT</string>
+    <string name="clear">CLEAR</string>
+    <string name="result">RESULT : </string>
 </resources>
