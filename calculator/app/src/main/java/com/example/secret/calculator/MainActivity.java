@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.beardedhen.androidbootstrap.TypefaceProvider;
+
 
 public class MainActivity extends Activity {
     private TextView val1, val2;
@@ -20,6 +22,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        TypefaceProvider.registerDefaultIconSets();
 
         val1 = (TextView) findViewById(R.id.val1);
         val2 = (TextView) findViewById(R.id.val2);

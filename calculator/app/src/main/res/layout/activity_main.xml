@@ -1,22 +1,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_margin="15sp"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
+        <com.beardedhen.androidbootstrap.AwesomeTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/val1"
             android:textSize="30sp" />
 
-        <TextView
+        <com.beardedhen.androidbootstrap.AwesomeTextView
             android:id="@+id/val1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,13 +28,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
+        <com.beardedhen.androidbootstrap.AwesomeTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/val2"
             android:textSize="30sp" />
 
-        <TextView
+        <com.beardedhen.androidbootstrap.AwesomeTextView
             android:id="@+id/val2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,40 +52,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/num0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/num0" />
+            android:text="@string/num0"
+            app:bootstrapBrand="primary" />
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/num1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/num1" />
+            android:text="@string/num1"
+            app:bootstrapBrand="primary" />
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/num2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/num2" />
+            android:text="@string/num2"
+            app:bootstrapBrand="primary" />
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/num3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/num3" />
+            android:text="@string/num3"
+            app:bootstrapBrand="primary" />
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/num4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/num4" />
+            android:text="@string/num4"
+            app:bootstrapBrand="primary" />
     </LinearLayout>
 
     <LinearLayout
@@ -98,40 +104,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/num5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/num5" />
+            android:text="@string/num5"
+            app:bootstrapBrand="primary" />
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/num6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/num6" />
+            android:text="@string/num6"
+            app:bootstrapBrand="primary" />
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/num7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/num7" />
+            android:text="@string/num7"
+            app:bootstrapBrand="primary" />
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/num8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/num8" />
+            android:text="@string/num8"
+            app:bootstrapBrand="primary" />
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/num9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/num9" />
+            android:text="@string/num9"
+            app:bootstrapBrand="primary" />
     </LinearLayout>
 
     <LinearLayout
@@ -145,19 +156,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/add" />
+            android:text="@string/add"
+            app:bootstrapBrand="success" />
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/sub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/sub" />
+            android:text="@string/sub"
+            app:bootstrapBrand="success" />
     </LinearLayout>
 
     <LinearLayout
@@ -171,19 +184,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/mul"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/mul" />
+            android:text="@string/mul"
+            app:bootstrapBrand="success" />
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/div"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/div" />
+            android:text="@string/div"
+            app:bootstrapBrand="success" />
     </LinearLayout>
 
     <LinearLayout
@@ -197,19 +212,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/next" />
+            android:text="@string/next"
+            app:bootstrapBrand="secondary" />
 
-        <Button
+        <com.beardedhen.androidbootstrap.BootstrapButton
             android:id="@+id/clear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/clear" />
+            android:text="@string/clear"
+            app:bootstrapBrand="secondary" />
     </LinearLayout>
 
     <LinearLayout
@@ -219,13 +236,13 @@
 
     </LinearLayout>
 
-    <TextView
+    <com.beardedhen.androidbootstrap.AwesomeTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/result"
         android:textSize="30sp" />
 
-    <TextView
+    <com.beardedhen.androidbootstrap.AwesomeTextView
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
