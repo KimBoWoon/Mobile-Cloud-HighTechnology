@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TypefaceProvider.registerDefaultIconSets();
+        //TypefaceProvider.registerDefaultIconSets();
 
         val1 = (TextView) findViewById(R.id.val1);
         val2 = (TextView) findViewById(R.id.val2);
