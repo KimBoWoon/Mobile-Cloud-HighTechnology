@@ -22,7 +22,7 @@ before_script:
   - sudo gradle -version
 
 script:
-  - cd calculator && sudo gradle build && sudo cd ~
-  - cd Call && sudo gradle build && sudo cd ~
-  - cd MyLoggerApp && sudo gradle build && sudo cd ~
+  - cd calculator && sudo gradle build
+  - cd .. && cd Call && sudo gradle build
+  - cd .. && cd MyLoggerApp && sudo gradle build
 
