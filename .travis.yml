@@ -10,6 +10,11 @@ android:
     - build-tools-23.0.1
     - extra-google-gcm
     - extra-google-google_play_services
+    - extra-google-google_play_services_froyo
+    - extra-google-m2repository
+    - extra-google-play_apk_expansion
+    - extra-google-play_billing
+    - extra-google-play_licensing
 
     # The SDK version used to compile your project
     - android-21
